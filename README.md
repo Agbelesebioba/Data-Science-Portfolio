@@ -1,4 +1,4 @@
-Exploratory and Predictive Data Analysis of PCOS
+#Exploratory and Predictive Data Analysis of PCOS
 Overview
 This project analyzes and predicts Polycystic Ovary Syndrome (PCOS) using a structured dataset and various machine learning techniques. It focuses on identifying key risk factors and building a predictive model for early diagnosis.
 Dataset
@@ -11,6 +11,7 @@ Data Import & Exploration:
 Data Cleaning & Preprocessing:
 •	Handle missing values
 •	Encode categorical variables
+•	Normalize features for distance-based models
 Exploratory Data Analysis (EDA):
 •	Visualizations with matplotlib and seaborn to explore distributions
 •	Correlation heatmaps to identify relationships between features
@@ -32,4 +33,6 @@ Visualizations
 Key Findings
 •	Random Forest and XGBoost provided the highest predictive accuracy (~99%).
 •	PCOS is strongly associated with elevated AMH, follicle counts, BMI, and lifestyle behaviors.
-•	A combination of hormonal and lifestyle data provides the most effective diagnosis model.
+•	A combination of hormonal and lifestyle data provides the most effective diagnosis model.#
+
+
